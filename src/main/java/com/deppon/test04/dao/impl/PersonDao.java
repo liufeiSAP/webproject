@@ -6,6 +6,7 @@ public class PersonDao implements IPersonDao {
 
 	public void save() {
 		System.out.println("------------from PersonDao.save()");
+		System.out.println("------------from PersonDao.save()");
 
 	}
 
