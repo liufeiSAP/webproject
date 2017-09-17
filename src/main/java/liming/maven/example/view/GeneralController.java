@@ -19,7 +19,9 @@ public class GeneralController {
 	        StudentEntity  entity = studentMapper.getStudent("123456");
 	        model.addAttribute("liming2", entity.getStudentName());  
 	        model.addAttribute("liming", entity.getStudentName());  
-	        System.out.println("index.jsp");  
+	        System.out.println("index.jsp"); 
+	        
+	      
 	    }  
 	  
 	  
